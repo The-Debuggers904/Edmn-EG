@@ -36,6 +36,8 @@
 }
 html {
     scroll-behavior: smooth;
+}
+html[data-about="true"] {
     overflow-x: hidden;
 }
 body {
