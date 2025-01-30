@@ -591,6 +591,10 @@ body[data-page="about"] footer {
 /*! Start About */
 
 /* *SECTION - About-main-section */
+
+#about-main-section {
+    margin-top: 60px;
+}
 .about-main-section-breif::before {
     content: '';
     position: absolute;
