@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EDMN  |  إضمن</title>
+        <link rel="icon" href="../Images/LOGO``.png" type="image/x-icon">
+        <!-- *LINK - Font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- *LINK - Css -->
+        <link rel="stylesheet" href="../CSS/style.css" />
+
+        <!-- *LINK - Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- *LINK - Tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="relative" data-page="about">
+        <!-- *STUB - Navbar -->
+        <header>
+            <nav class="mx-auto flex justify-between items-center">
+                <div class="app-logo pr-8">
+                    <a href="../index.html" class="flex">
+                        <img src="../Images/LOGO-text.png" alt="">
+                        <img src="../Images/LOGO``.png" alt="">
+                    </a>
+                </div>
+    
+                <div class="burger-icon hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+    
+                <ul class="nav-links mx-auto mr-80 flex justify-center items-center">
+                    <li>
+                        <a href="../index.html">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="active">
+                        <a href="about.html">نبذة عنا</a>
+                    </li>
+                    <li>
+                        <a href="why-us.html">لماذا نحن</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- *SECTION - landing Section -->
+        <section
+            id="about-main-section"
+            class="px-6 sm:px-20 md:px-32 relative flex h-screen py-20 lg:py-32"
+        >
+            <div
+                class="container grid grid-cols-1 lg:grid-cols-2 justify-center items-center mx-auto relative"
+            >
+                <div class="about-main-section-breif relative overflow-visible">
+                    <h3
+                        style="color: var(--dark-blue-color)"
+                        class="text-4xl xl:text-5xl font-bold my-3"
+                    >
+                        من نحن
+                    </h3>
+                    <h5 class="text-lg lg:text-xl xl:text-2xl my-5 leading-10">
+                        <span class="font-bold text-3xl">إضمن</span> هي أكثر من مجرد تطبيق ؛ <br />
+                        هي مجموعة أدوات متكاملة توفر لك خدمات ضمان مالي لتأمين
+                        عمليات البيع والشراء بكل سهولة وأمان في منزلك أو عملك.
+                    </h5>
+                    <p class="my-5 text-lg xl:text-xl">
+                        <span class="font-bold">إضمن</span> فكر جديد، شعارنا:
+                        <span style="color: var(--red-color)">"</span>
+                        الأمان المالي على بُعد تطبيق في جوالك
+                        <span style="color: var(--red-color)">"</span>
+                        .
+                    </p>
+                </div>
+
+                <div class="about-main-section-pic w-full">
+                    <img src="../Images/about-main-section.svg" alt="" />
+                </div>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 480 480"
+                    fill="#F0171A"
+                >
+                    <path
+                        d="M120 120h120v120H120zM0 240h120v120H0zM120 360h120v120H120zM0 0h120v120H0zM360 120h120v120H360zM240 240h120v120H240zM360 360h120v120H360zM240 0h120v120H240z"
+                    ></path>
+                </svg>
+            </div>
+        </section>
+        <!-- *SECTION - Problems & solution -->
+        <section id="about-services" class="px-6 md:px-32 my-32 relative">
+            <h4
+                class="mx-auto relative text-5xl font-bold w-fit  about-main-title my-5"
+            >
+                خدماتنا
+            </h4>
+            <div
+                class="container mx-auto bg-section rounded-3xl shadow-2xl about-services py-10 relative"
+            >
+                <div class="card  w-11/12  lg:w-3/6 p-10 pr-16 rounded-3xl mx-auto lg:mr-20 about-problems shadow-sm hover:shadow-lg hover:-translate-y-5 transition-all duration-500"
+                >
+                        <h4
+                            class="text-3xl my-3 font-semibold relative"
+                        >
+                            المشاكل
+                        </h4>
+                        <ul class="pr-0 sm:pr-10 list-disc marker:text-red-500">
+                            <li class="my-3 text-xl">
+                                غياب الثقة في المعاملات المالية عبر الإنترنت
+                                بسبب عدم وجود
+                                <span
+                                    style="
+                                        color: var(--red-color);
+                                        font-weight: 500;
+                                    "
+                                    >ضمانات مالية</span
+                                >.
+                            </li>
+                            <li class="my-3 text-xl">
+                                قلة الخيارات المتاحة للضمان المالي
+                                <span
+                                    style="
+                                        color: var(--red-color);
+                                        font-weight: 500;
+                                    "
+                                    >وغير مناسبة</span
+                                >
+                                للشركات الصغيرة والأفراد.
+                            </li>
+                            <li class="my-3 text-xl">
+                                عدم الثقة بين البائع والمشتري ومخاطر
+                                <span
+                                    style="
+                                        color: var(--red-color);
+                                        font-weight: 500;
+                                    "
+                                    >الإحتيال</span
+                                >.
+                            </li>
+                            <li class="my-3 text-xl">
+                                عدم وجود حلول
+                                <span
+                                    style="
+                                        color: var(--red-color);
+                                        font-weight: 500;
+                                    "
+                                    >موثوقة</span
+                                >
+                                لتأمين المدفوعات غير الملموسة.
+                            </li>
+                        </ul>
+                </div>
+                <div class="card mx-auto lg:mr-auto lg:ml-20 mt-10 w-11/12 lg:w-3/6 p-10 pr-14 rounded-3xl about-solution shadow-lg hover:-translate-y-5 "
+                >
+                    <ul>
+                        <h4
+                            class="text-3xl relative my-3 font-semibold"
+                        >
+                            الحلول
+                        </h4>
+                        <ul class="pr-0 sm:pr-10 list-disc marker:text-blue-700">
+                            <li class="my-3 text-xl">
+                                ضمان مخصص عمليات البيع والشراء غير الملموسة.
+                            </li>
+                            <li class="my-3 text-xl">
+                                حفظ الأموال بشكل آمن حتى يتم الوفاء بالشروط
+                                المتفق عليها.
+                            </li>
+                            <li class="my-3 text-xl">
+                                نموذج عمولة شفاف وميسور التكلفة<span
+                                    style="
+                                        color: var(--dark-blue-color);
+                                        font-weight: 600;
+                                    "
+                                >
+                                    (70 جنيه + 1.5%)</span
+                                >
+                            </li>
+                            <li class="my-3 text-xl">
+                                دعم عملاء متوفر
+                                <span
+                                    style="
+                                        color: var(--dark-blue-color);
+                                        font-weight: 600;
+                                    "
+                                    >24/7</span
+                                >
+                                لحل أي مشكلة.
+                            </li>
+                            <li class="my-3 text-xl">
+                                تكامل سلس مع أنظمة الدفع مثل فوري و
+                                <span
+                                    style="
+                                        color: var(--dark-blue-color);
+                                        font-weight: 600;
+                                    "
+                                    >ValU</span
+                                >
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="about-pic hidden lg:block">
+                    <img src="../Images/arrow.png" alt="">
+                </div>
+            </div>
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 480 480"
+                    fill="#F0171A"
+                >
+                    <path
+                        d="M120 120h120v120H120zM0 240h120v120H0zM120 360h120v120H120zM0 0h120v120H0zM360 120h120v120H360zM240 240h120v120H240zM360 360h120v120H360zM240 0h120v120H240z"
+                    ></path>
+                </svg>
+        </section>
+        <!-- *SECTION - Members -->
+        <section id="about-members" class="mt-56 px-6 md:px-32 mb-32">
+            <h4
+                class="mx-auto relative text-5xl font-bold w-fit about-main-title my-5"
+            >
+                فريقنا
+            </h4>
+            <div class="container mx-auto bg-section rounded-3xl shadow-xl about-members py-10 pb-6 relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 px-4 lg:px-8 ">
+                <div class="about-member-card shadow-none hover:shadow-xl  rounded-t-lg rounded-b-2xl hover:-translate-y-5 transition-all duration-500">
+                    <div class="member-pic shadow-xl h-80">
+                        <img src="../Images/ceo.jpeg" class="h-full w-full rounded-lg" alt="Mahmoud Harraz">
+                    </div>
+                    <div class="member-info my-4 pr-5 overflow-hidden">
+                        <h5 class="text-xl font-semibold relative mr-3 mb-2">محمود حراز</h5>
+                        <p class="text-lg mr-5 transition-colors duration-200 text-opacity-20">المؤسس & المدير التنفيذي</p>
+                    </div>
+                </div>
+                <div class="about-member-card shadow-none hover:shadow-xl  rounded-t-lg rounded-b-2xl hover:-translate-y-5 transition-all duration-500">
+                    <div class="member-pic shadow-xl h-80">
+                        <img src="../Images/finance.jpg" class="h-full w-full  rounded-lg" alt="Mahmoud Harraz">
+                    </div>
+                    <div class="member-info my-4 pr-5 overflow-hidden">
+                        <h5 class="text-xl font-semibold relative mr-3 mb-2">خالد جميل</h5>
+                        <p class="text-lg mr-5 transition-colors duration-200 text-opacity-20">مسؤول القسم المالي</p>
+                    </div>
+                </div>
+                <div class="about-member-card shadow-none hover:shadow-xl  rounded-t-lg rounded-b-2xl hover:-translate-y-5 transition-all duration-500">
+                    <div class="member-pic shadow-xl h-80">
+                        <img src="../Images/dev.jpeg" class="h-full w-full  rounded-lg" alt="Mahmoud Harraz">
+                    </div>
+                    <div class="member-info my-4 pr-5 overflow-hidden">
+                        <h5 class="text-xl font-semibold relative mr-3 mb-2">مصطفى جمعة </h5>
+                        <p class="text-lg mr-5 transition-colors duration-200 text-opacity-20">مسؤول تطوير الأعمال</p>
+                    </div>
+                </div>
+                <div class="about-member-card shadow-none hover:shadow-xl  rounded-t-lg rounded-b-2xl hover:-translate-y-5 transition-all duration-500">
+                    <div class="member-pic shadow-xl h-80">
+                        <img src="../Images/tech.jpeg" class="h-full w-full  rounded-lg" alt="Mahmoud Harraz">
+                    </div>
+                    <div class="member-info my-4 pr-5 overflow-hidden">
+                        <h5 class="text-xl font-semibold relative mr-3 mb-2"> معاذ محمد</h5>
+                        <p class="text-lg mr-5 transition-colors duration-500 text-opacity-20">مسؤول القسم التكنولوجي</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <!-- *STUP - Up Btn -->
+        <button class="about-up-btn w-12 h-12 fixed right-9 p-1 rounded-xl z-10">
+            <div>
+                <img src="../Images/right-arrow-svgrepo-com.svg" alt="">
+            </div>
+        </button>
+
+        <!-- *STUB - Footer -->
+        <footer class="bottom-8 shadow-2xl">
+            <div class="bg-section w-full relative grid grid-cols-1 md:grid-cols-3 justify-between items-center  rounded-t-[50px] py-3 pr-0 md:pr-14 text-center md:text-right gap-y-5 md:gap-y-0 ">
+                <div class="footer-copyrights mt-5 md:pt-0">
+                    <p class="text-xl font-semibold">كل الحقوق محفوظة <span style="color: var(--red-color);" class="mx-1 font-bold">إضمن</span>&copy 2025</p>
+                </div>
+                <div class="footer-logo mx-auto">
+                    <img src="../Images/LOGO-text.png" class="" alt="Edmen">
+                </div>
+                <div class="footer-social flex items-center justify-around text-2xl p-6 px-10  gap-x-5">
+                    <a href="tel:+20 01142680064">
+                        <i class="fa-solid fa-phone cursor-pointer  bg-white rounded-[50%] p-3 "></i>
+                    </a>
+                    <a href="mailto:info@edmneg.com">
+                    <i class="fa-regular fa-envelope cursor-pointer bg-white rounded-[50%] p-3 "></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/Pp5AZa8f2nE9ASKH8" target="_blank">
+                        <i class="fa-solid fa-location-dot cursor-pointer  bg-white rounded-[50%] p-3 "></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="../JavaScript/main.js"></script>
+    </body>
+</html>
