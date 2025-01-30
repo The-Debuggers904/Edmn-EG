@@ -448,7 +448,7 @@ body[data-page="about"] footer {
             transition: .6s;
             i{
                 position: absolute;
-                top: -25%;
+                top: -20%;
                 left: 10%;
                 color: var(--white-color);
                 font-size: 4rem;
